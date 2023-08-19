@@ -38,5 +38,5 @@ bash LSTM.sh
 
 ## Acknowledgements
 
-- Some code are based on the codes of [DAGA](https://aclanthology.org/2020.emnlp-main.488/), many thanks!
+- Some code in LSTM-based language modeling are based on the codes of [DAGA](https://aclanthology.org/2020.emnlp-main.488/), many thanks!
 
