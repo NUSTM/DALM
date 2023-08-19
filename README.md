@@ -24,6 +24,8 @@ pseudo_label.sh
 ### 2. Domain-Adaptive Language Modeling
 
 To train a domian-adaptive language model and generate target-domain labeled data. Then use the generated data for the main tasks.
+We use LSTM and GPT2 as decoder in language modeling respectively.
+
 1. GPT2-based
 ```
 GPT2.sh
