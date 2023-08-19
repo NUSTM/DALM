@@ -16,22 +16,27 @@ Click here to get [BERT-E](https://pan.baidu.com/s/1hNyNCyfOHzznuPbxT1LNFQ) (BER
 
 ### 1. Domain-Adaptive Pseudo Labeling
 
-To assign pseudo labels to unlabeled data in the target domain.
+To assign pseudo labels to unlabeled data in the target domain, run below code:
 ```
-pseudo_label.sh
+bash pseudo_label.sh
 ```
 
 ### 2. Domain-Adaptive Language Modeling
 
-To train a domian-adaptive language model and generate target-domain labeled data. Then use the generated data for the main tasks.
+Train a domian-adaptive language model and generate target-domain labeled data. Then use the generated data for the main tasks.
 We use LSTM and GPT2 as decoder in language modeling respectively.
 
-1. GPT2-based
+2.1 To train the GPT2-based DALM for data generation and evaluation, run below code:
 ```
-GPT2.sh
+bash GPT2.sh
 ```
 
-2. LSTM-based
+2. To train the LSTM-based DALM for data generation and evaluation, run below code:
 ```
-LSTM.sh
+bash LSTM.sh
 ```
+
+## Acknowledgements
+
+- Some code are based on the codes of [DAGA](https://aclanthology.org/2020.emnlp-main.488/), many thanks!
+
