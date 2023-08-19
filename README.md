@@ -2,7 +2,7 @@
 
 The code for our ACL2023 paper (https://aclanthology.org/2023.acl-long.81/)
 
-Jianfei Yu, Qiankun Zhao. "Cross-Domain Data Augmentation with Domain-Adaptive Language Modeling for Aspect-Based Sentiment Analysis"
+Jianfei Yu, Qiankun Zhao, Rui Xia. "Cross-Domain Data Augmentation with Domain-Adaptive Language Modeling for Aspect-Based Sentiment Analysis"
 
 ## Datasets
 
@@ -31,7 +31,7 @@ We use LSTM and GPT2 as decoder in language modeling respectively.
 bash GPT2.sh
 ```
 
-2. To train the LSTM-based DALM for data generation and evaluation, run below code:
+2.2 To train the LSTM-based DALM for data generation and evaluation, run below code:
 ```
 bash LSTM.sh
 ```
