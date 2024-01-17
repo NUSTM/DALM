@@ -1,0 +1,5 @@
+python==3.7
+torch==1.10.0
+transformers==4.12.5
+tqdm==4.64.0
+sentencepiece==0.1.96
